@@ -1,5 +1,137 @@
-*{
-    margin: 0;
+/* body content */
+* {
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
+
+/* navbar starts */
+nav {
+    display: flex;
+    max-width: 1530px;
+    margin-top: 7px;
+}
+
+#lexi-token {
+    margin-left: 45px;
+    color: rgb(0, 61, 198);
+    font-weight: lighter;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+#learn-lex {
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#log-in {
+    margin-left: 35px;
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#login-icon {
+    margin-right: 25px;
+    margin-top: 4px;
+    margin-left: 9px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+/* navbar ends */
+
+/* main body starts */
+main {
+    max-width: 1320px;
+    border-radius: 13px;
+    margin-left: 120px;
+    margin-top: 50px;
+    z-index: 20;
+    border: 1px solid white;
+    background-image: url('images/home div bg img.png');
+    background-size: cover;
+}
+
+main>h1 {
+    margin-left: 55px;
+    max-width: 750px;
+    font-size: 70px;
+    font-weight: lighter;
+    text-shadow: 1px 2px 34px black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.highlight {
+    color: aliceblue;
+    text-shadow: 3px 1px 0.9px aliceblue;
+    font-weight: lighter;
+}
+
+.sub-main {
+    display: flex;
+    margin-left: 65px;
+    margin-top: 155px;
+    max-width: 550px;
+    padding-bottom: 190px;
+    overflow: hidden;
+    z-index: 20;
+    overflow-x: hidden;
+}
+
+.ques-mark {
+    width: 25px;
+    border-radius: 90px;
+    height: 30px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.getstarted-btn {
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.sub-main>h4 {
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 6px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+#tri-img {
+    position: relative;
+    width: 1080px;
+    height: 1250px;
+    bottom: 564px;
+    right: 510px;
+    transform: rotate(35deg);
+    height: 850px;
+    z-index: -1;
+}
+
+#square-img {
+    position: relative;
+    bottom: 1284px;
+    width: 580px;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 1040px;
+}
+/* main body ends */
