@@ -47,11 +47,11 @@ nav {
 }
 
 .doc-back{
-    object-fit: cover;
+    /* object-fit: cover; */
     width: 100%;
     height: 100%;
     position: relative;
-    bottom: 120px;
+    bottom: 210px;
     z-index: -1;
 }
 
@@ -65,5 +65,15 @@ nav {
     color: #541c72;
     z-index: 20;
     top: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro-head{
+    position: relative;
+    top: 190px;
+    color: white;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 75px;
     font-family: 'Playfair Display', serif;
 }
